@@ -3,13 +3,19 @@
 }
 
 
-body {
+html, body {
 	font-size: 18px;
 	line-height: 34px;
 	font-family: Arial, Helvetica, sans-serif;
 	background-image: url('../images/what-the-hex.png');
     color: #777;
+    height: 100%;
     margin: 0 auto;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
 }
 .container {
 	width: 100%;
@@ -148,7 +154,11 @@ footer {
     border-top: 8px solid #4aaaa5;
     color: #ccc;
     font-size: 12px;
-    text-align: center; 
+    text-align: center;
+}
+
+.push {
+    height: 50px;
 }
 
 /*portfolio*/
